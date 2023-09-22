@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EAEBF6;
+}
+.o-hidden {
+    overflow:hidden;
+}
+
+.nav {
+    transition: transform 0.4s;
+    transform: translateX(50%);
+    left: -50%;
+}
+
+.nav.justify-content-end {
+    transform: translateX(0);
+    left: 0;
+}
+.cards{
+    width: 32.35%;
+}
