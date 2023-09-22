@@ -11,7 +11,7 @@ body{
 }
 
 .nav {
-    transition: transform 0.4s;
+    transition: transform 2s;
     transform: translateX(50%);
     left: -50%;
 }
